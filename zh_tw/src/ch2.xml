@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:id='ch2'>
+  <title>CH2</title>
+  <para>測試章節二</para>
+  <para>想要最新的核心，請至 <ulink url="https://www.kernel.org/">The Linux Kernel Archive</ulink></para>
+  <para>我的電子郵件在 <xref linkend="ch1"></xref>有</para>
+  <mediaobject>
+    <alt>尚．路客．畢凱的玉照</alt>
+    <!--
+        Sure one can put multiple lots of imageobject here
+        However, only the first available item will be used.
+    -->
+    <imageobject>
+      <!--
+          Image or media path listed here should already be resolved.
+      -->
+      <imagedata align="center" width="5in" format="JPG"
+                 fileref="../img/Picard2379.jpg"/>
+    </imageobject>
+  </mediaobject>
+  <para>...像畢凱說過的<anchor xml:id='picardLine'/>底限在此，不多不少！</para>
+</chapter>

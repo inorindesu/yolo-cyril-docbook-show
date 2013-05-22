@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      lang="en">
+  <!--lang can be zh_tw when using Traditional Chinese!-->
+  <info>
+     <title>我的第一本書</title>
+   <author>
+        <personname><firstname>家琪</firstname><surname>李</surname></personname>
+   </author>
+    <copyright><year>2010</year><holder>李家琪</holder></copyright>
+  </info>
+  <preface>
+    <title>前言</title>
+    <para>測試</para>
+    <para>畢凱艦長（在<link linkend='picardLine'>這裡</link>）說過，底限在此...。（詳見
+ <xref linkend="ch2"/>）</para>
+  </preface>
+  <!---->
+  <xi:include href="ch1.xml"/>
+  <xi:include href="ch2.xml"/>
+</book>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:id="ch1">
+  <title>CH1</title>
+  <para>測試參數</para>
+  <para>我的信箱是： <email>local@localhost.localdomain</email>。歡迎不吝指教！</para>
+</chapter>
