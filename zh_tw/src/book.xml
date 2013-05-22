@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <book xmlns="http://docbook.org/ns/docbook" version="5.0"
       xmlns:xi="http://www.w3.org/2001/XInclude"
-      lang="en">
+      lang="zh_tw">
   <!--lang can be zh_tw when using Traditional Chinese!-->
   <info>
      <title>我的第一本書</title>
