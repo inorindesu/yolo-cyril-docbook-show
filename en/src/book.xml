@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      lang="en">
+  <!--lang can be zh_tw when using Traditional Chinese!-->
+  <info>
+     <title>My First Book</title>
+   <author>
+        <personname><firstname>Jane</firstname><surname>Doe</surname></personname>
+   </author>
+    <copyright><year>2010</year><holder>Jane Doe</holder></copyright>
+  </info>
+  <preface>
+    <title>Foreword</title>
+    <para>Preface test</para>
+    <para>Picard said the line must be drawn where? See the text
+<link linkend='picardLine'>here</link> in <xref linkend="ch2"/></para>
+  </preface>
+  <!---->
+  <xi:include href="ch1.xml"/>
+  <xi:include href="ch2.xml"/>
+</book>

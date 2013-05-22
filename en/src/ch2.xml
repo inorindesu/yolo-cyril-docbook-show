@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:id='ch2'>
+  <title>CH2</title>
+  <para>Test chapter 2</para>
+  <para>For bleeding-edge kernels, see <ulink url="https://www.kernel.org/">The Linux Kernel Archive</ulink></para>
+  <para>For my email, see <xref linkend="ch1"></xref></para>
+  <mediaobject>
+    <alt>Picture of Jean-Luc Picard</alt>
+    <!--
+        Sure one can put multiple lots of imageobject here
+        However, only the first available item will be used.
+    -->
+    <imageobject>
+      <!--
+          Image or media path listed here should already be resolved.
+      -->
+      <imagedata align="center" width="5in" format="JPG"
+                 fileref="../img/Picard2379.jpg"/>
+    </imageobject>
+  </mediaobject>
+  <para>... like Picard said, <anchor xml:id='picardLine'/> the line must be drawn here, no far, no less!</para>
+</chapter>
