@@ -251,7 +251,7 @@
 <l:template name="HighlightButton" text="Toggle search result highlighting" lang="en"/>
 <l:template name="Your_search_returned_no_results" text="Your search returned no results." lang="en"/>
 </l:context>
-<l:context name="styles"><l:template name="person-name" text="first-last"/>
+<l:context name="styles"><l:template name="person-name" text="family-given"/>
 </l:context>
 <l:context name="title"><l:template name="abstract" text="%t"/>
 <l:template name="acknowledgements" text="%t" lang="en"/>

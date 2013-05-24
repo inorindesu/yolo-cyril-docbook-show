@@ -6,4 +6,18 @@
 <xsl:param name="l10n.xml" select="document('./l10n.xml')"/>
 <xsl:param name="base.dir" select="'./output/zh_tw_new/html/'"/>
 
+<xsl:template name="person.name.family-given">
+  <xsl:param name="node" select="."/>
+
+  <!-- The family-given style applies a convention for identifying given -->
+  <!-- and family names in locales where it may be ambiguous -->
+  <xsl:apply-templates select="$node//surname[1]"/>
+
+  <xsl:if test="$node//surname and $node//firstname">
+    <xsl:text> </xsl:text>
+  </xsl:if>
+
+  <xsl:apply-templates select="$node//firstname[1]"/>
+</xsl:template>
+
 </xsl:stylesheet>
